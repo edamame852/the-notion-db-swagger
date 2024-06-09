@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "notion",
+      "type": "com.edamame.notion.notion.config.NotionConfigProperties",
+      "sourceType": "com.edamame.notion.notion.config.NotionConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "notion.api-url",
+      "type": "java.lang.String",
+      "sourceType": "com.edamame.notion.notion.config.NotionConfigProperties"
+    },
+    {
+      "name": "notion.api-version",
+      "type": "java.lang.String",
+      "sourceType": "com.edamame.notion.notion.config.NotionConfigProperties"
+    },
+    {
+      "name": "notion.auth-token",
+      "type": "java.lang.String",
+      "sourceType": "com.edamame.notion.notion.config.NotionConfigProperties"
+    },
+    {
+      "name": "notion.database-id",
+      "type": "java.lang.String",
+      "sourceType": "com.edamame.notion.notion.config.NotionConfigProperties"
+    }
+  ],
+  "hints": []
+}

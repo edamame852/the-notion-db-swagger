@@ -2,8 +2,12 @@ package com.edamame.notion;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+
+import com.edamame.notion.notion.config.NotionConfigProperties;
 
 @SpringBootApplication
+@EnableConfigurationProperties(NotionConfigProperties.class)
 public class SwagApplication {
 
 	public static void main(String[] args) {
