@@ -1,7 +1,11 @@
 META-INF/spring-configuration-metadata.json
 com/edamame/notion/notion/service/DatabaseService.class
+com/edamame/notion/notion/config/NotionConfigProperties.class
+com/edamame/notion/notion/model/Database.class
+com/edamame/notion/controller/SwagController.class
+com/edamame/notion/model/Swag.class
+com/edamame/notion/notion/NotionClient.class
 com/edamame/notion/SwagApplication.class
 com/edamame/notion/notion/config/NotionConfig.class
-com/edamame/notion/notion/config/NotionConfigProperties.class
+com/edamame/notion/service/SwagService.class
 com/edamame/notion/notion/model/Page.class
-com/edamame/notion/notion/model/Database.class

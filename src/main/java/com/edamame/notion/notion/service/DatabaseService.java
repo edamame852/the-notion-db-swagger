@@ -16,9 +16,9 @@ import com.edamame.notion.notion.config.NotionConfigProperties;
 import com.edamame.notion.notion.model.Database;
 import com.edamame.notion.notion.model.Page;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class DatabaseService {
 
     private final RestTemplate restTemplate;

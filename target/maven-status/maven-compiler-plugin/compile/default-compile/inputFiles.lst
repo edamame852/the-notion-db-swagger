@@ -1,6 +1,10 @@
 /home/miltonycchow/PROJECTS/the-notion-db-swagger/src/main/java/com/edamame/notion/SwagApplication.java
+/home/miltonycchow/PROJECTS/the-notion-db-swagger/src/main/java/com/edamame/notion/controller/SwagController.java
+/home/miltonycchow/PROJECTS/the-notion-db-swagger/src/main/java/com/edamame/notion/model/Swag.java
+/home/miltonycchow/PROJECTS/the-notion-db-swagger/src/main/java/com/edamame/notion/notion/NotionClient.java
 /home/miltonycchow/PROJECTS/the-notion-db-swagger/src/main/java/com/edamame/notion/notion/config/NotionConfig.java
 /home/miltonycchow/PROJECTS/the-notion-db-swagger/src/main/java/com/edamame/notion/notion/config/NotionConfigProperties.java
 /home/miltonycchow/PROJECTS/the-notion-db-swagger/src/main/java/com/edamame/notion/notion/model/Database.java
 /home/miltonycchow/PROJECTS/the-notion-db-swagger/src/main/java/com/edamame/notion/notion/model/Page.java
 /home/miltonycchow/PROJECTS/the-notion-db-swagger/src/main/java/com/edamame/notion/notion/service/DatabaseService.java
+/home/miltonycchow/PROJECTS/the-notion-db-swagger/src/main/java/com/edamame/notion/service/SwagService.java
