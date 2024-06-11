@@ -6,6 +6,7 @@ import com.edamame.notion.model.Swag;
 import com.edamame.notion.notion.NotionClient;
 import com.edamame.notion.notion.config.NotionConfigProperties;
 import com.edamame.notion.notion.model.Page;
+import com.edamame.notion.service.SwagService;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -30,7 +31,7 @@ public class SwagController {
     public List<Swag> finalAll() {
         List<Page> pages = client.databases.query(notionConfigProperties.databaseId());
 
-        return null;
+        return pages.stream().map(SwagService::mapPageToTalk).toList();
     }
 
 }
